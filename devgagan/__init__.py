@@ -73,6 +73,7 @@ async def restrict_bot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
     await setup_database()
     await app.start()
+    await sex.start(bot_token=BOT_TOKEN)
     getme = await app.get_me()
     BOT_ID = getme.id
     BOT_USERNAME = getme.username
