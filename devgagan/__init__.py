@@ -40,7 +40,7 @@ app = Client(
     parse_mode=ParseMode.MARKDOWN
 )
 
-sex = TelegramClient('sexrepo', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+sex = TelegramClient('sexrepo', API_ID, API_HASH)
 
 if STRING:
     pro = Client("ggbot", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
@@ -53,7 +53,7 @@ if DEFAULT_SESSION:
 else:
     userrbot = None
 
-telethon_client = TelegramClient('telethon_session', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+telethon_client = TelegramClient('telethon_session', API_ID, API_HASH)
 
 # MongoDB setup
 tclient = AsyncIOMotorClient(MONGO_DB)
