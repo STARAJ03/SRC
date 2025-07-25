@@ -12,7 +12,7 @@ INST_COOKIES = """
 YTUB_COOKIES = """
 # write here yt cookies
 """
-img_url = getenv("img_url","https://files.catbox.moe/s6jyou.jpg")
+img_url = getenv("img_url","https://imgs.search.brave.com/THqPKczwvPZMcP7ME81cY86Y_zf3C5TvrUIkce6YNCo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9yMi5z/dGFycnlhaS5jb20v/cmVzdWx0cy8xMDA3/MzQ3OTcwLzk2NzVj/YjQzLWE4YmEtNGYy/Ny05NmU5LTYzYTNk/NzVlYTQ5Zi53ZWJw")
 Credit = getenv("Credit","Star AJ")
 c_url = getenv("c_url","https://t.me/+N5xSRah10TZlNmY1")
 API_ID = int(getenv("API_ID", "27765349"))
