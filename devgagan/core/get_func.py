@@ -898,7 +898,7 @@ async def handle_large_file(file, sender, edit, caption):
         if freecheck == 1:
             reply_markup = InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("💎 Get Premium to Forward", url="https://t.me/chiru52")]
+                    [InlineKeyboardButton("💎 Get Premium to Forward", url="https://t.me/AJS2003")]
                 ]
             )
             await app.copy_message(
