@@ -89,7 +89,7 @@ async def token_handler(client, message):
         await message.reply_photo(
             photo=img_url,
             caption=(
-                ">Hi 👋 Welcome To Team JNC SRC Bot\n"
+                ">Hi 👋 Welcome To Team Star AJ SRC Bot\n"
                 "✳️ I am Save Restricted Robot 🤖 \n\n"
                 "> /help --> Know Commod Details \n> /token --> Get 3 Hours Free Premium Features\n> /myplan to check Your Plan"
             ),
