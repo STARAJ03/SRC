@@ -85,13 +85,13 @@ async def token_handler(client, message):
         keyboard = InlineKeyboardMarkup([
             [join_button] 
         ])
-         
+          #/token --> Get 3 Hours Free Premium Features\n>  (in line 94)
         await message.reply_photo(
             photo=img_url,
             caption=(
                 ">Hi 👋 Welcome To Team Star AJ SRC Bot\n"
                 "✳️ I am Save Restricted Robot 🤖 \n\n"
-                "> /help --> Know Commod Details \n> /token --> Get 3 Hours Free Premium Features\n> /myplan to check Your Plan"
+                "> /help --> Know Commod Details \n> /myplan to check Your Plan"
             ),
             reply_markup=keyboard
         )
